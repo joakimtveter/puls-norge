@@ -1,0 +1,22 @@
+# ignore node dependency files & directories
+node_modules/
+composer.lock
+package-lock.json
+/node_modules/
+/vendor/
+/reports/
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# Log files
+*.log
+/logs/
+
+# htaccess
+.htaccess
+
+.DS_Store
+.DS_Store?
